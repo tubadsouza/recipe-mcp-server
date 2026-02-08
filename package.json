@@ -1,0 +1,15 @@
+{
+  "name": "recipe-mcp-server",
+  "version": "1.0.0",
+  "description": "MCP server for semantic recipe search using Supabase and Google Gemini embeddings",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.0.0",
+    "@supabase/supabase-js": "^2.39.0",
+    "dotenv": "^16.3.1"
+  }
+}
